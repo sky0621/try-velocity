@@ -1,0 +1,5 @@
+sub
+${parts.sub}
+
+#set($parts = $parts.sub2Bean)
+#parse("src/main/resources/mail/template/parts/sub2.vm")

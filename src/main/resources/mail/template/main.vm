@@ -1,0 +1,8 @@
+main
+${bean.main}
+${bean.subBean.sub}
+${bean.subBean.sub2Bean.sub2}
+${bean.subBean.sub2Bean.sub3Bean.sub3}
+
+#set($parts = $bean.subBean)
+#parse("src/main/resources/mail/template/parts/sub.vm")
